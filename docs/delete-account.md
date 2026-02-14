@@ -14,6 +14,7 @@ You can request the deletion of your MotoWrench account and all associated data 
 |-----------|--------|
 | Account profile (name, email, user icon) | Deleted |
 | Saved vehicles and maintenance logs | Deleted |
+| Photos | Deleted |
 | App feedback | Deleted |
 | Anonymous, aggregated analytics | Retained (not linked to you) |
 
