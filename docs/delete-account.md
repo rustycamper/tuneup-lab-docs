@@ -1,12 +1,10 @@
 # Delete Your Account
 
-You can request the deletion of your MotoWrench account and all associated data at any time.
+You can delete of your MotoWrench account and all associated data at any time.
 
-## How to request account deletion
+## How to delete your account
 
-1. Submit a deletion request in [this form](https://forms.gle/ku5KuPwT4LM567CX8).
-2. Use the email address associated with your MotoWrench account.
-3. We will confirm deletion by reply.
+1. Simply delete all your bikes from the app and all data associated with your account will be deleted.
 
 ## What gets deleted
 
@@ -20,4 +18,4 @@ You can request the deletion of your MotoWrench account and all associated data 
 
 ## Timeline
 
-Account deletion is processed within **30 days** of the request. Once complete, the action is irreversible.
+Account deletion is processed immediately. Once complete, the action is irreversible.
