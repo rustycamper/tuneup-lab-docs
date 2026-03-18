@@ -4,7 +4,7 @@
 
 ## Overview
 
-MotoWrench is a motorcycle maintenance tracker developed by Sozora. This policy explains what data we collect, how we use it, and your rights regarding that data.
+MotoWrench is a motorcycle maintenance tracker. This policy explains what data we collect, how we use it, and your rights regarding that data.
 
 ## Data We Collect
 
@@ -46,4 +46,4 @@ We may update this policy from time to time. Changes will be posted on this page
 
 ## Contact
 
-If you have questions about this privacy policy, contact us at [support@sozora.com](mailto:support@sozora.com).
+If you have questions about this privacy policy, contact us through the app in Settings -> Feedback.
