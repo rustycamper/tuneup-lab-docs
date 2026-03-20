@@ -90,6 +90,8 @@ For reference, here's roughly what these numbers look like at each valve state:
 
 The numbers form a smooth progression from tight to loose. If your numbers fall between two rows, you're somewhere in between.
 
+**Why does TPS change with valve clearance?** The valves always open and close at the same rate — that's set by the camshaft. What changes is how loud each tick is. Loose valves have a bigger gap, so the rocker arm hits harder and produces a sharp click that stands out clearly from the engine noise. Tight valves have almost no gap, so the click is buried in combustion noise. TPS measures how clearly that repeating click pattern shows up in the audio — not how fast it repeats.
+
 ### Click Envelope Chart
 
 The chart labeled "Click envelope" shows the transient energy in the valve click band over the duration of your recording. Tall spikes are individual valve click events. A steady pattern of spikes means rhythmic, consistent ticking.
