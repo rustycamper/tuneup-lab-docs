@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 557.064 739.083" width="557.064" height="739.083" style="--bg:#1a1b26;--fg:#a9b1d6;background:var(--bg)">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 60%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 40%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 25%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 50%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 85%, var(--bg)));
+    --_node-fill:     var(--surface, color-mix(in srgb, var(--fg) 3%, var(--bg)));
+    --_node-stroke:   var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)));
+    --_group-fill:    var(--bg);
+    --_group-hdr:     color-mix(in srgb, var(--fg) 5%, var(--bg));
+    --_inner-stroke:  color-mix(in srgb, var(--fg) 12%, var(--bg));
+    --_key-badge:     color-mix(in srgb, var(--fg) 10%, var(--bg));
+  }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<polyline class="edge" data-from="A" data-to="B" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="252.7444166666666,76.9 252.7444166666666,124.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B" data-to="C" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="252.7444166666666,161.8 252.7444166666666,191.8 134.8508916666666,191.8 134.8508916666666,221.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B" data-to="D" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="252.7444166666666,161.8 252.7444166666666,191.8 325.9543916666666,191.8 325.9543916666666,221.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="C" data-to="E" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="134.8508916666666,258.70000000000005 134.8508916666666,306.70000000000005" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="D" data-to="F" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="325.9543916666666,258.70000000000005 325.9543916666666,282.70000000000005 261.64324999999997,282.70000000000005 261.64324999999997,306.70000000000005" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="D" data-to="G" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="325.9543916666666,258.70000000000005 325.9543916666666,282.70000000000005 386.18975,282.70000000000005 386.18975,306.70000000000005" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="E" data-to="H" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="134.8508916666666,343.6 134.8508916666666,361.6 261.64324999999997,361.6 261.64324999999997,379.6" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="F" data-to="H" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="261.64324999999997,343.6 261.64324999999997,361.6 261.64324999999997,361.6 261.64324999999997,379.6" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="G" data-to="H" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="386.18975,343.6 386.18975,361.6 261.64324999999997,361.6 261.64324999999997,379.6" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="H" data-to="I" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="261.64324999999997,416.5 261.64324999999997,464.5" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="I" data-to="J" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="261.64324999999997,614.183 261.64324999999997,632.183 91.356,632.183 91.356,650.183" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="I" data-to="K" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="261.64324999999997,614.183 261.64324999999997,632.183 210.95299999999997,632.183 210.95299999999997,650.183" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="I" data-to="L" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="261.64324999999997,614.183 261.64324999999997,632.183 322.39899999999994,632.183 322.39899999999994,650.183" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="I" data-to="M" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="261.64324999999997,614.183 261.64324999999997,632.183 455.33399999999995,632.183 455.33399999999995,650.183" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="node" data-id="A" data-label="Tap Record" data-shape="rectangle">
+  <rect x="196.57191666666662" y="40" width="112.345" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="252.7444166666666" y="58.45" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Tap Record</text>
+</g>
+<g class="node" data-id="B" data-label="B" data-shape="rectangle">
+  <rect x="222.7444166666666" y="124.9" width="60" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="252.7444166666666" y="143.35000000000002" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">B</text>
+</g>
+<g class="node" data-id="C" data-label="Local DSP Analysis" data-shape="rectangle">
+  <rect x="55.33689166666659" y="221.8" width="159.028" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="134.8508916666666" y="240.25" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Local DSP Analysis</text>
+</g>
+<g class="node" data-id="D" data-label="Downsample to 16 kHz" data-shape="rectangle">
+  <rect x="242.36489166666658" y="221.8" width="167.17900000000003" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="325.9543916666666" y="240.25" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Downsample to 16 kHz</text>
+</g>
+<g class="node" data-id="E" data-label="E" data-shape="rectangle">
+  <rect x="104.8508916666666" y="306.70000000000005" width="60" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="134.8508916666666" y="325.15000000000003" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">E</text>
+</g>
+<g class="node" data-id="Periodicity" data-label="Periodicity" data-shape="rectangle">
+  <rect x="336.9169166666666" y="124.9" width="105.676" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="389.75491666666665" y="143.35000000000002" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Periodicity</text>
+</g>
+<g class="node" data-id="F" data-label="F" data-shape="rectangle">
+  <rect x="231.64324999999997" y="306.70000000000005" width="60" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="261.64324999999997" y="325.15000000000003" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">F</text>
+</g>
+<g class="node" data-id="G" data-label="Convert to WAV" data-shape="rectangle">
+  <rect x="319.64324999999997" y="306.70000000000005" width="133.09300000000002" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="386.18975" y="325.15000000000003" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Convert to WAV</text>
+</g>
+<g class="node" data-id="H" data-label="Send to Gemini AI" data-shape="rectangle">
+  <rect x="191.39174999999997" y="379.6" width="140.503" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="261.64324999999997" y="398.05" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Send to Gemini AI</text>
+</g>
+<g class="node" data-id="I" data-label="Gemini Verdict" data-shape="diamond">
+  <polygon points="261.64324999999997,464.5 336.48474999999996,539.3415 261.64324999999997,614.183 186.80174999999997,539.3415" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="261.64324999999997" y="539.3415" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Gemini Verdict</text>
+</g>
+<g class="node" data-id="J" data-label="ON_SPEC" data-shape="rectangle">
+  <rect x="40" y="650.183" width="102.71199999999999" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="91.356" y="668.633" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">ON_SPEC</text>
+</g>
+<g class="node" data-id="K" data-label="TIGHT" data-shape="rectangle">
+  <rect x="170.712" y="650.183" width="80.482" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="210.95299999999997" y="668.633" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">TIGHT</text>
+</g>
+<g class="node" data-id="L" data-label="LOOSE" data-shape="rectangle">
+  <rect x="279.19399999999996" y="650.183" width="86.41" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="322.39899999999994" y="668.633" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">LOOSE</text>
+</g>
+<g class="node" data-id="M" data-label="NOT_ENGINE" data-shape="rectangle">
+  <rect x="393.604" y="650.183" width="123.45999999999998" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="455.33399999999995" y="668.633" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">NOT_ENGINE</text>
+</g>
+</svg>
