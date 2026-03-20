@@ -91,7 +91,15 @@ For reference, here's roughly what these numbers look like at each valve state:
 
 The numbers form a smooth progression from tight to loose. If your numbers fall between two rows, you're somewhere in between.
 
-**Why does TPS change with valve clearance?** The valves always open and close at the same rate — that's set by the camshaft. What changes is how loud each tick is. Loose valves have a bigger gap, so the rocker arm hits harder and produces a sharp click that stands out clearly from the engine noise. Tight valves have almost no gap, so the click is buried in combustion noise. TPS measures how clearly that repeating click pattern shows up in the audio — not how fast it repeats.
+**Why do these numbers change with valve clearance?** The valves always open and close at the same rate — that's set by the camshaft. What changes is how hard the rocker arm contacts the valve stem, and that depends on the gap.
+
+- **TPS (Tick Periodicity Strength):** Loose valves have a bigger gap, so the rocker arm hits harder and produces a sharp click that stands out clearly from combustion noise. The app's autocorrelation picks up that repeating pattern easily — high TPS. Tight valves have almost no gap, so the click is buried in noise and the pattern is hard to detect — low TPS. TPS measures how *clearly* the ticking shows up, not how *fast* it repeats.
+
+- **Kurtosis:** Think of this as "spikiness." A smooth, combustion-dominated sound has low kurtosis. Add sharp valve clicks on top and the signal becomes spiky — high kurtosis. Loose valves produce loud, impulsive clicks that spike well above the background, pushing kurtosis up. Tight valves produce a smoother signal with fewer spikes.
+
+- **Tick Score:** This combines TPS and kurtosis into a single number. It's high only when the clicks are both spiky (high kurtosis) *and* rhythmic (high TPS). Random noise can be spiky but not periodic. A smooth engine hum can be periodic but not spiky. Only real valve ticking scores high on both — that's the point of combining them.
+
+- **Clicks/sec:** The simplest metric — how many distinct click events the app counted per second. Loose valves produce clear, countable clicks. Tight valves produce so few audible clicks that the count drops toward zero.
 
 ### Click Envelope Chart
 
