@@ -80,6 +80,16 @@ Below the spectrogram, you'll find four numbers. Here's what they mean in plain 
 | **Tick Periodicity (TPS)** | How rhythmically the clicks repeat | More regular, metronomic ticking |
 | **Clicks/sec** | How many distinct click events per second | More frequent ticking |
 
+For reference, here's roughly what these numbers look like at each valve state:
+
+| State | Tick Score | Kurtosis | TPS | Clicks/sec |
+|-------|-----------|----------|-----|-----------|
+| Tight | ~0.05 | ~0.4 | 0.37 | ~0 |
+| On-spec | ~0.17 | ~2.3 | 0.50 | ~0.7 |
+| Loose | ~0.52 | ~10 | 0.72 | ~5.1 |
+
+The numbers form a smooth progression from tight to loose. If your numbers fall between two rows, you're somewhere in between.
+
 ### Click Envelope Chart
 
 The chart labeled "Click envelope" shows the transient energy in the valve click band over the duration of your recording. Tall spikes are individual valve click events. A steady pattern of spikes means rhythmic, consistent ticking.
