@@ -71,7 +71,7 @@ What to look for:
 
 ### DSP Metrics
 
-Below the spectrogram, you'll find four numbers. Here's what they mean in plain English:
+Below the spectrogram, you'll find five numbers. Here's what they mean in plain English:
 
 | Metric | What it measures | Higher means... |
 |--------|-----------------|----------------|
@@ -79,6 +79,7 @@ Below the spectrogram, you'll find four numbers. Here's what they mean in plain 
 | **Kurtosis** | How sharp and spiky the clicks are in the 2--6 kHz band | Sharper, more impulsive clicks |
 | **Tick Periodicity (TPS)** | How rhythmically the clicks repeat | More regular, metronomic ticking |
 | **Clicks/sec** | How many distinct click events per second | More frequent ticking |
+| **Estimated RPM** | Engine speed derived from the tick repetition rate | Faster idle |
 
 For reference, here's roughly what these numbers look like at each valve state:
 
